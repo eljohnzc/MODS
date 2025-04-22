@@ -1,10 +1,23 @@
 {
-  "Eljohnzc_Update": [
+  "enabled": true,
+  "show_after": "2025-03-20",
+  "force_update": false,
+  "title": "Update Available",
+  "message": "A new version is ready. Please update for best experience.
+join my chanel for more @Eljohnzc",
+  "link_text": "See details",
+  "link_url": "https://m.me/eljohnzcmain",
+  "buttons": [
     {
-      "version": "9.0.32.625",
-      "title": "Update Available!",
-      "description": "Please update your app to enjoy new features (°•°)",
-      "download_link": "https://m.me/eljohnzcmain"
+      "text": "Update Now",
+      "action": "url",
+      "target": "https://t.me/eljohnzcmods",
+      "style": "primary"
+    },
+    {
+      "text": "Later",
+      "action": "dismiss",
+      "style": "secondary"
     }
   ]
 }
